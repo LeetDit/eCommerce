@@ -34,6 +34,7 @@
 1. git clone repository
 2. npm install
 3. npm start
+4. Note. credential such as API_Key has been .gitignored, therefore user needs to obtain their own API_KEY
 
 
 # eCommerce - Frontend Challenge
