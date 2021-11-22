@@ -1,0 +1,10 @@
+.todayText {
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    height: 1.1em;
+}
+
+.weatherText {
+    font-size: 1.2em;
+}

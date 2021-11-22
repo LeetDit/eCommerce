@@ -1,0 +1,17 @@
+.detailText {
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.outerBorder {
+    border: 3px solid white;
+    border-radius: 10px;   
+}
+
+.forecastBorder {
+    border-top: 3px solid white;
+}
+
+.todayTitleText {
+    font-size: 1.5em;
+}
