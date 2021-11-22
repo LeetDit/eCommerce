@@ -1,3 +1,42 @@
+## eCommerce Frontend Challenge by Jaden Park
+
+# Deployed At
+
+# Github 
+
+* https://github.com/LeetDit/eCommerce
+
+# API
+
+* https://openweathermap.org/api
+
+# Dependencies
+
+* Axios
+
+# Time Spent
+
+* 6 hours
+
+# Difficulties
+
+1. Finding the free weather API which provides future forecasts
+2. Finding the similar font used in the mockup
+3. Responsiveness of content
+
+# Limitation
+
+1. The icon was used directly from the API supplier, therefore the color may seem little bland which causes lack of contrast alongside the background color.
+2. Seldom delay in API calls which causes slight delay in updating to new city data when selected.
+
+# To run locally
+
+1. git clone repository
+2. npm install
+3. npm start
+
+# ============================================================
+
 # eCommerce - Frontend Challenge
 
 Create a simple app to display the weather in three cities.
