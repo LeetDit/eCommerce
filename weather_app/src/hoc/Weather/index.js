@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import './styles.css';
-
 import Forecast from '../../components/Forecast';
 import Today from '../../components/Today';
+import './styles.css';
 
 class Weather extends Component {
 
@@ -17,9 +16,9 @@ class Weather extends Component {
 
     items = [
         {
-            city: "Toronto",
-            lat: "43.651070",
-            lon: "-79.347015",
+            city: "Hawaii",
+            lat: "19.741755",
+            lon: "-155.844437",
         },
         {
             city: "Vancouver",
@@ -27,9 +26,9 @@ class Weather extends Component {
             lon: "-123.1207",
         },
         {
-            city: "Calgary",
-            lat: "51.0447",
-            lon: "-114.0719",
+            city: "Alaska",
+            lat: "66.160507",
+            lon: "-157.369141",
         },
     ]
 
@@ -118,7 +117,7 @@ class Weather extends Component {
     render() {
         return (
             <>
-                <div className="w-50 mx-auto my-5 detailText">
+                <div className="w-50 mx-auto pt-5 my-5 detailText">
                     <div className="container w-75 my-3">
                         <div className="row text-center text-uppercase">
                             {this.loadCity()}
